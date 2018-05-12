@@ -68,7 +68,7 @@ class GUI:
         :return:
         """
         print "Saving states ..."
-        sys.stdout = open("problems/problem1.txt", "w")
+        sys.stdout = open("problem1.txt", "w")
         print "size", self.window_size[0] / self.tile_size, self.window_size[1] / self.tile_size
         for t in self.tiles:
             if t.get_type() == "dirty":
